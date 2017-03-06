@@ -1,6 +1,8 @@
-#main{
+		#main{
 			width: 500px;
 			margin:auto;
+			padding-bottom: 100px;
+height:100%;
 		}
 
 		#tb1 th{
@@ -44,4 +46,13 @@
 
 		.p1{
 			color: #A9A9A9;
+		}
+
+		#ft{
+			color: white;
+			background-color: #727778;
+			width: 100%;
+			position:fixed;
+			bottom:0;
+			padding: 5px;
 		}
