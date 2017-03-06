@@ -1,0 +1,47 @@
+#main{
+			width: 500px;
+			margin:auto;
+		}
+
+		#tb1 th{
+
+			border-bottom:1px solid #A9A9A9;
+			margin-bottom: 5px;
+
+		}
+
+		#tb1 td{
+			padding: 5px 10px;
+		}
+
+		#tb1 td input[type="number"]{
+			width:50px;
+		}
+
+		#vat{
+			float: right;
+			color: #A9A9A9
+		}
+
+		#st{
+			float: right;
+			color: #A9A9A9;
+		}
+
+		#tc{
+			float: right;
+		}
+
+		#btn{
+			background-color: #000080;
+			float: right;
+			color: white;
+
+			padding:10px 5px ;
+			border-radius: 15px;
+			
+		}
+
+		.p1{
+			color: #A9A9A9;
+		}

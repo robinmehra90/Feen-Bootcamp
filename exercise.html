@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ex1.css">
+	<title>Your Basket</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<body>
+<div id="main">
+<img src="tothenewlogo.png">
+
+	<h1>Your Basket</h1>
+	Items you have added to your basket are shown below.<br>Adjust the quantities or remove items before continuing your purchase<br><br><br>
+
+	<table id="tb1" width="100%" >
+	 <thead >
+	 
+	 <tr>
+	 	<th>Product</th>
+		<th>Price</th>
+		<th>Qty</th>
+		<th>Cost</th>	
+	 </tr>
+
+	  </thead>
+
+	  <tbody>
+	  	<tr>
+	 	<td>Cotton T-Shirt,Medium</td>
+	 	<td>199</td>
+	 	<td><input type="number" value="1" min="1" width="10px" id="ctn_qty" onchange="UpdateTshirtCost()"></td>
+	 	<td id="ctn_cost">$1.99</td>
+	 </tr>
+	
+		<tr>
+	 	<td>Baseball Cap,One Size</td>
+	 	<td>299</td>
+	 	<td><input type="number" value="1" min="1" width="1px" id="bsc_qty" onchange="UpdateCapCost()"></td>
+	 	<td id="cap_cost">$2.99</td>
+	 </tr>
+
+	 <tr>
+	 	<td>Swim Shorts,Medium</td>
+	 	<td>399</td>
+	 	<td><input type="number" value="1" min="1" width="10px" id="shrts_qty" onchange="UpdateShortsCost()"></td>
+	 	<td id="shorts_cost">$3.99</td>
+	 </tr>
+	  </tbody>
+	</table>	
+
+	<p class="p1">
+	 	Subtotal
+	 	<span id="st">$8.97</span>
+	</p>
+
+	<p class="p1">
+	 	Vat @ 20%
+	 	<span id="vat">$1.79</span>
+	</p><br>
+
+	<p><b>
+	 	Total Cost
+	 	<span id="tc">$10.76</span>
+	</b></p>
+
+	 <input type="button" value="Buy Now >>" id="btn" onclick="window.location.href='thankyou.html'">
+</div>
+<script src="myscript.js"></script>
+</body>
+</html>
