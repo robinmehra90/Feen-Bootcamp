@@ -56,3 +56,19 @@ height:100%;
 			bottom:0;
 			padding: 5px;
 		}
+
+		#ctm:hover{
+			background-color: #CCCFCF;
+		}
+
+		#bcos:hover{
+			background-color: #CCCFCF;
+		}
+
+		#ssm:hover{
+			background-color: #CCCFCF;
+		}
+
+		.glyphicon-trash:hover{
+			color: red;
+		}

@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="ex1.css">
 	<title>Your Basket</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 </head>
 <body>
@@ -25,27 +26,31 @@
 	  </thead>
 
 	  <tbody>
-	  	<tr>
+
+	  <tr id="ctm">
 	 	<td>Cotton T-Shirt,Medium</td>
-	 	<td>199</td>
+	 	<td>$1.99</td>
 	 	<td><input type="number" value="1" min="1" width="10px" id="ctn_qty" onchange="UpdateTshirtCost()"></td>
 	 	<td id="ctn_cost">$1.99</td>
+	 	<td><a href="#"><span  id="cotDel" class="glyphicon glyphicon-trash" onclick="cotDel()"></span></a></td>
 	 </tr>
 	
-		<tr>
+	 <tr id="bcos">
 	 	<td>Baseball Cap,One Size</td>
-	 	<td>299</td>
+	 	<td>$2.99</td>
 	 	<td><input type="number" value="1" min="1" width="1px" id="bsc_qty" onchange="UpdateCapCost()"></td>
 	 	<td id="cap_cost">$2.99</td>
+	 	<td><a href="#"><span id="capDel" class="glyphicon glyphicon-trash" onclick="capDel()"></span></a></td>
 	 </tr>
 
-	 <tr>
+	 <tr id="ssm">
 	 	<td>Swim Shorts,Medium</td>
-	 	<td>399</td>
+	 	<td>$3.99</td>
 	 	<td><input type="number" value="1" min="1" width="10px" id="shrts_qty" onchange="UpdateShortsCost()"></td>
 	 	<td id="shorts_cost">$3.99</td>
+	 	<td><a href="#"><span id="shortDel" class="glyphicon glyphicon-trash" onclick="shortDel()"></span></a></td>
 	 </tr>
-	  </tbody>
+	 </tbody>
 	</table>	
 
 	<p class="p1">
